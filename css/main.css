@@ -1,7 +1,133 @@
 /* Inserte su codigo aqui */
 *{
-    outline: 1px solid black;
+    outlin: 1px solid black;
+}   
+body{
+    font-family: comic sans MS;
+} 
+header{
+    background-color: #EFC90D;
+    height: 650px;
+    color: white;
 }
+header button{
+    position: absolute;
+    background-color: #EAB74A;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 60px;
+    border: 1px solid #EAB74A;
+    text-transform: uppercase;
+}
+header ul{
+    margin-left: 350px;
+    list-style: none;
+    margin-top: 30px;
+    width: 100%;
+}
+header ul li{
+    display: inline-block;
+}
+header ul li a{
+    color: white;
+    margin: 20px;
+}
+header .titulo{
+    text-align: center;
+    margin-top: 300px;
+}
+section{
+    background: #DAD9D5;
+    font-family: cursive;
+}
+.cuerpo2{
+    padding-bottom: 20px;
+}
+.cuerpo .ejm1{
+    width: 80%;
+    float: right;
+    margin-top: 80px;
+    background-color: white;
+}
+.cuerpo .ejm2{
+    width: 80%;
+    float: left;
+    margin-top: 80px;
+    background-color: white;
+}
+.cuerpo .caja{
+    width: 300px;
+    height: 300px;
+    background-color: darkgray;
+    margin: 20px 70px;
+    text-align: center;
+    padding-top: 140px;
+    font-size: 25px;
+    color: #6C6C6A;
+}
+.cuerpo .ejm3{
+    margin-top: 30px;
+}
+.cuerpo h1{
+    color: #6C6C6A;
+    padding-left: 10px;
+    
+}
+.cuerpo p{
+    color: #838382;
+    margin: 20px;
+}
+.cuerpo button{
+    background-color: orange;
+    border: 1px solid orange;
+    margin-left: 160px;
+    margin-bottom: 5px;
+    padding: 5px 20px;
+}
+.cuerpo button a{
+    color: white;
+}
+footer{
+    color: white;
+    background-color: #343433;
+    height: 80px;
+}
+footer ul li{
+    list-style: none;
+    float: left;
+    margin: 20px 3px;
+    border-left: 1px solid white;
+    padding: 0px 3px;
+}
+li:first-child {
+    border-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
