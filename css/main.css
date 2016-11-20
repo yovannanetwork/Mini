@@ -58,13 +58,13 @@ section{
 .cuerpo .caja{
     width: 300px;
     height: 300px;
-    background-color: darkgray;
     margin: 20px 70px;
     text-align: center;
     padding-top: 140px;
     font-size: 25px;
     color: #6C6C6A;
 }
+
 .cuerpo .ejm3{
     margin-top: 30px;
 }
@@ -103,8 +103,60 @@ li:first-child {
     border-left: 0px;
 }
 
+.uno{
+    background-image: url(../img/imagen1.jpg);
+}
+.dos{
+    background-image: url(../img/imagen2.jpg);
+}
+.tres{
+    background-image: url(../img/laboratoria.jpg);
+    background-size: cover;
+}
+.cuatro{
+    background-image: url(../img/imagen4.jpg);
+    background-size: contain;
+}
+.caja:hover{
+    background-image: url(../img/imagen3.jpg);
+}
+.uno:hover{
+    background-image: url(../img/imagen3.jpg);
+    background-size: cover;
+}
+.dos:hover{
+    background-image: url(../img/imagen3.jpg);
+    background-size: cover;
+}
 
+/*-------------*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
 
+header#slider { 
+    overflow: hidden;
+}
+header#slider figure img { 
+    width: 20%; float: left;
+}
+header#slider figure { 
+  position: absolute;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; 
+}
 
 
 
